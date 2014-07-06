@@ -31,10 +31,17 @@ pip install -U pip
 pip install ipython[notebook]
 pip install distribute --upgrade
 apt-get build-dep python-matplotlib
+apt-get install gtk2-engines-pixbuf
 pip install numpy scipy matplotlib pandas sympy nose
 
 # Theano (deeplearning.net)
 pip install Theano
+
+# This is only required for pylearn 2
+# pip install PyYAML
+# git clone git://github.com/lisa-lab/pylearn2.git
+# python pylearn2/setup.py develop
+
 
 # Upgrade essential modules to latest versions
 pip install --upgrade numpy
